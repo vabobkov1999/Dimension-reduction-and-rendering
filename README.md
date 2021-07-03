@@ -55,7 +55,11 @@ pca_model = PCA(n_components=2)
 tmp = pca_model.fit_transform(X.toarray())
 print(tmp.shape)
 ```
-Затем мы строим график. (вставить сюда график)
+В результате мы получаем следующий график:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vabobkov1999/Dimension-reduction-and-rendering/master/PCA_LR4.png" />
+</p>
 
 С методом t-SNE идея таже, создается одноимённая модель, только тут параметры n_components размерность, perplexity - минимальное расстояние между двумя точками, random_state это константа, которая рандомно выбирает точку с которой начинает обработку. Аналогично с помощью функции fit_transform запихиваем данные из X, то есть  вектора с фитчами в tmp, который в конечном итоге у нас уже запоминает двухмерные вектора (Фрагмент кода представлен ниже).
 
@@ -64,7 +68,12 @@ tsne_model = TSNE(n_components=2, perplexity=10, random_state=10)
 tmp = tsne_model.fit_transform(X.toarray())
 print(tmp.shape)
 ```
-Затем мы строим график. (вставить сюда график)
+В результате мы получаем следующий график:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vabobkov1999/Dimension-reduction-and-rendering/master/TSNE_LR4.png" />
+</p>
+
 
 ## Для работы Image-Training
 
