@@ -84,12 +84,15 @@ print(tmp.shape)
 
 Методы PCA и t-SNE точно так же работают как и для Clustering-Wikipedia-Articles
 
+Фрагмент кода и график метода PCA представлены ниже:
 ```python
 pca_model = PCA(n_components=3, random_state=0)
 tmp = pca_model.fit_transform(global_features)
 print(tmp.shape)
 ```
-тут график
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vabobkov1999/Dimension-reduction-and-rendering/master/PCA_LR3.png" />
+</p>
 
 ```python
 seed = random.randint(0,300)
