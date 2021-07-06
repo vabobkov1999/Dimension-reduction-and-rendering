@@ -108,5 +108,6 @@ print(tmp.shape)
   <img src="https://raw.githubusercontent.com/vabobkov1999/Dimension-reduction-and-rendering/master/TSNE_LR3_2D.png" />
 </p>
 
+Замечание
 
 Так же напоминаю для тех кому интересно выполнить задание самому или протестировать данную программу, то прошу перейти [сюда](https://drive.google.com/drive/folders/1b_molbj8z6JhHV6r178AeI1XpQezehsm?usp=sharing "Практикум по машинному обучению")
