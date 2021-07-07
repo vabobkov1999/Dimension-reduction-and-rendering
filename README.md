@@ -35,7 +35,7 @@
 Работа сделана на основании двух предыдущих
 
 
-## Для работы Clustering-Wikipedia-Articles
+### Для работы Clustering-Wikipedia-Articles
 
 
 В файле clasterisation-2.py содержится программа для кластеризации статей из Wikipedia, с внесёнными изменениями, которые позволяют визуализировать набор фитч на двумерной плоскости.
@@ -75,7 +75,7 @@ print(tmp.shape)
 </p>
 
 
-## Для работы Image-Training
+### Для работы Image-Training
 
 Для этой реализации этого задания необходимо два файла testing.py и training.py.
 
@@ -108,6 +108,10 @@ print(tmp.shape)
   <img src="https://raw.githubusercontent.com/vabobkov1999/Dimension-reduction-and-rendering/master/TSNE_LR3_2D.png" />
 </p>
 
+### Дополнительное задание:
+
+В качестве доп.задания было предложено псотроить графики в 3D.
+
 Замечание:
 -----------
 Для лабораторной работы Image-Training методы PCA и t-NSE работают ужасно. Это происходит из-за того, что некачественно выбраны фитчи. Вследствие чего они не подходят для кластеризации и построения графиков.Я пытался отрегулировать параметры фитч, но лучше не получилось.
@@ -118,13 +122,15 @@ print(tmp.shape)
   <img src="https://raw.githubusercontent.com/vabobkov1999/Dimension-reduction-and-rendering/master/Goog_Job.20.58.png" height="480" width="640"/>
 </p>
 
-### Как он выглядит на самом деле:
-<p align="center">
-  <img src="https://memepedia.ru/wp-content/uploads/2020/09/b2b7c451cbddc634ecc0dc37031fb4d6.jpg" height="480" width="640"/>
-</p>
+### Как график выглядит на самом деле:
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/vabobkov1999/Dimension-reduction-and-rendering/master/PCA_LR3_2D.png" />
+</p>
+
+<p align="center">
+  <img src="https://memepedia.ru/wp-content/uploads/2020/09/b2b7c451cbddc634ecc0dc37031fb4d6.jpg" height="480" width="640"/>
 </p>
 
 Так же напоминаю для тех кому интересно выполнить задание самому или протестировать данную программу, то прошу перейти [сюда](https://drive.google.com/drive/folders/1b_molbj8z6JhHV6r178AeI1XpQezehsm?usp=sharing "Практикум по машинному обучению")
