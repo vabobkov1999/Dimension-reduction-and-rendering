@@ -115,7 +115,7 @@ print(tmp.shape)
 ## Как должен выглядеть график методов PCA и t-NSE:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vabobkov1999/Dimension-reduction-and-rendering/master/Goog_Job.20.58.png" height="394" width="527"/>
+  <img src="https://raw.githubusercontent.com/vabobkov1999/Dimension-reduction-and-rendering/master/Goog_Job.20.58.png" height="480" width="640"/>
 </p>
 
 ## Как он выглядит на самом деле:
