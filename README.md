@@ -112,16 +112,19 @@ print(tmp.shape)
 -----------
 Для лабораторной работы Image-Training методы PCA и t-NSE работают ужасно. Это происходит из-за того, что некачественно выбраны фитчи. Вследствие чего они не подходят для кластеризации и построения графиков.Я пытался отрегулировать параметры фитч, но лучше не получилось.
 
-## Как должен выглядеть график методов PCA и t-NSE:
+### Как должен выглядеть график методов PCA и t-NSE:
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/vabobkov1999/Dimension-reduction-and-rendering/master/Goog_Job.20.58.png" height="480" width="640"/>
 </p>
 
-## Как он выглядит на самом деле:
+### Как он выглядит на самом деле:
+<p align="center">
+  <img src="https://memepedia.ru/wp-content/uploads/2020/09/b2b7c451cbddc634ecc0dc37031fb4d6.jpg" height="480" width="640"/>
+</p>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/vabobkov1999/Dimension-reduction-and-rendering/master/PCA_LR3_2D.png" />
 </p>
-
 
 Так же напоминаю для тех кому интересно выполнить задание самому или протестировать данную программу, то прошу перейти [сюда](https://drive.google.com/drive/folders/1b_molbj8z6JhHV6r178AeI1XpQezehsm?usp=sharing "Практикум по машинному обучению")
