@@ -110,7 +110,23 @@ print(tmp.shape)
 
 ### Дополнительное задание:
 
-В качестве доп.задания было предложено псотроить графики в 3D.
+В качестве доп.задания мне было предложено перестроить графики из двухмерной плоскости в трёхмерную.Такие преобразования были сделаны для работы №3.
+
+Для получения трехмерного графика были сделаны следующие преобразования:
+
+* Параметр n_components стал равен трём
+* Была добавлена строка ax = fig.add_subplot(111, projection='3d') вместе с новым параметром projection='3d'
+* В ax.scatter был добавлен ещё один интервал tmp[k:n] (где k и n, некоторые числа которые совпадают с позициями фотографий в dataset)
+
+#### По итогу были получены следующие графики:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vabobkov1999/Dimension-reduction-and-rendering/master/PCA_LR3.png" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vabobkov1999/Dimension-reduction-and-rendering/master/TSNE_LR3.png" />
+</p>
 
 Замечание:
 -----------
