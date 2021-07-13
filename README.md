@@ -27,7 +27,7 @@ In this work, using python and PCA and TNCE methods, visualize the features obta
 величине и т.д.
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Streptomyces_coelicolor_sc_anim.gif" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Streptomyces_coelicolor_sc_anim.gif" height="400" width="400"/>
 </p>
 
 
@@ -39,7 +39,7 @@ In this work, using python and PCA and TNCE methods, visualize the features obta
 * Затем t-SNE определяет похожее распределение вероятностей по точкам в пространстве малой размерности и минимизирует расстояние Кульбака — Лейблера между двумя распределениями с учётом положения точек.
 
 <p align="center">
-  <img src="https://www.machinelearningmastery.ru/img/0-441303-131088.gif" />
+  <img src="https://www.machinelearningmastery.ru/img/0-441303-131088.gif"height="400" width="400"/>
 </p>
 
 Чтобы визуализировать признаки на плоскости нужно уменьшить размерность
