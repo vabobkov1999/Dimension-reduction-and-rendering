@@ -39,7 +39,7 @@ In this work, using python and PCA and TNCE methods, visualize the features obta
 * Затем t-SNE определяет похожее распределение вероятностей по точкам в пространстве малой размерности и минимизирует расстояние Кульбака — Лейблера между двумя распределениями с учётом положения точек.
 
 <p align="center">
-  <img src="https://blog.datasciencedojo.com/content/images/2019/04/mnist_autoencoder_t-SNE-1.gif" />
+  <img src="https://www.machinelearningmastery.ru/img/0-441303-131088.gif" />
 </p>
 
 Чтобы визуализировать признаки на плоскости нужно уменьшить размерность
