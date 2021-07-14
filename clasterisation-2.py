@@ -48,12 +48,13 @@ ax.legend()
 plt.show()
 fig.savefig('PCA_LR4.png')
 
-#Start TSNE
+#Start t-SNE
 tsne_model = TSNE(n_components=2, perplexity=10, random_state=10)
 tmp = tsne_model.fit_transform(X.toarray())
 print(tmp.shape)
 fig, ax = plt.subplots()    #SAME as: fig = plt.figure()
-#                                     ax = fig.add_subplot(111)
+#                                  ax = fig.add_subplot(111)
+
 ax.set(title='TSNE for LR4')
 ax.scatter(tmp[:14][:,0], tmp[:14][:,1], color='red', label='Mathematicians')
 ax.scatter(tmp[15:30][:,0], tmp[15:30][:,1], color='green', label='History of Asia')
